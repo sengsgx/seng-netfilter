@@ -1,0 +1,25 @@
+# app
+
+demo-app/build/
+
+# lib
+
+*.so
+
+# module
+
+*.o
+*.ko
+*.obj
+*.mod*
+*.cmd
+seng-module/.tmp_versions/
+seng-module/modules.order
+seng-module/Module.symvers
+seng-module/Mkfile.old
+seng-module/dkms.conf
+
+# total
+
+.idea/
+docs/

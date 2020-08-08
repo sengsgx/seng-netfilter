@@ -122,6 +122,8 @@ Use `sudo iptables -m seng --help` to see the SENG rule specifiers for creating 
 See the [SENG Server README](https://github.com/sengsgx/sengsgx/edit/master/seng_server/README.md) for instructions on how to run the SENG Server.
 You have to run the server with the `-n` and `-d <database>` options to enable communication with the SENG Netfilter module.
 
+Note: the [SENG Go-Server](https://github.com/sengsgx/seng-gosrv) is _not yet_ compatible with the SENG Netfilter Extension.
+
 ### Sample iptables Rules
 ```
 # Allow all demo Enclaves with given Measurement (mrenclave) to send to tcp/8391

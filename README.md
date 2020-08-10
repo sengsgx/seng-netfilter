@@ -26,7 +26,7 @@ make seng_docs
 
 ### Research Project and USENIX Paper
 This repository belongs to the [SENG research project](https://github.com/sengsgx/sengsgx) by [Fabian Schwarz](https://github.com/fa-schwarz) and Christian Rossow from the CISPA Helmholtz Center for Information Security.
-The corresponding [research paper](https://publications.cispa.saarland/3119/1/seng-sec20.pdf) `"SENG, the SGX-Enforcing Network Gateway: Authorizing Communication from Shielded Clients"` will be published as part of the 29th USENIX Security Symposium (USENIX Security 20).
+The corresponding [research paper](https://publications.cispa.saarland/3119/1/seng-sec20.pdf) `"SENG, the SGX-Enforcing Network Gateway: Authorizing Communication from Shielded Clients"` will be published as part of the 29th [USENIX Security](https://www.usenix.org/conference/usenixsecurity20/presentation/schwarz) Symposium (USENIX Security 20).
 If you use SENG or the SENG Netfilter Extension in a project, please cite the paper using one of the formats provided by the export function of the [publication database](https://publications.cispa.saarland/3119/) or use the following bibtex entry:
 
 ```
@@ -35,7 +35,8 @@ If you use SENG or the SENG Netfilter Extension in a project, please cite the pa
     title = {{SENG, the SGX-Enforcing Network Gateway: Authorizing Communication from Shielded Clients}},
     booktitle = {29th {USENIX} Security Symposium ({USENIX} Security 20)},
     year = {2020},
-    address = {Boston, MA},
+    isbn = {978-1-939133-17-5},
+    pages = {753--770},
     publisher = {{USENIX} Association},
     month = aug,
     url = {https://publications.cispa.saarland/3119/}
